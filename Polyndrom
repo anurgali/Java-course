@@ -1,0 +1,21 @@
+
+
+import java.util.Scanner;
+
+public class Polyndrom {
+  public static void main (String args[]) {
+    Scanner sc=new Scanner(System.in);
+    String s =sc.next();
+
+    char[] charArr = s.toCharArray();
+    System.out.println(isPolyndrom(charArr));
+
+   }
+
+  // anna - полиндром
+  // написать метод который проверяет является ли строка полиндромом
+   private static boolean isPolyndrom(char[] array){
+    return false;
+   }
+
+}
